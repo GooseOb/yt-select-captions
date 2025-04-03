@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         YT Select Captions
 // @namespace    https://greasyfork.org/users/901750-gooseob
-// @version      1.0
+// @version      1.1
 // @description  Make YouTube captions selectable
 // @author       GooseOb
 // @license      MIT
-// @match        *://*/*
+// @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // ==/UserScript==
 
