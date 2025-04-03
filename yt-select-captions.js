@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Make YouTube captions selectable
 // @author       GooseOb
+// @license      MIT
 // @match        *://*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // ==/UserScript==
