@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT Select Captions
 // @namespace    https://greasyfork.org/users/901750-gooseob
-// @version      1.1
+// @version      1.2
 // @description  Make YouTube captions selectable
 // @author       GooseOb
 // @license      MIT
@@ -37,7 +37,7 @@
     captionWindowCont.addEventListener(
       "mousedown",
       (e) => {
-        e.stopPropagation();
+        if (!(e.altKey || e.ctrlKey)) e.stopPropagation();
       },
       { capture: true },
     );
